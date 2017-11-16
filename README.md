@@ -8,7 +8,7 @@ code 里面的代码需要安装 msys2的linux库才能在windows上运行 且�
 
 没有msys2环境的下载这个 就不需要再用code的代码
 
-<ul><li>命令<code>[ip www.github.com]</code>效果：</li></ul>
+命令<code>[ip www.github.com]</code>效果：
 <p><a href="https://wx2.sinaimg.cn/mw1024/0066ebxvgy1flk5y1o6gqj30bc060tbg.jpg" target="_blank"><img src="https://wx2.sinaimg.cn/mw1024/0066ebxvgy1flk5y1o6gqj30bc060tbg.jpg" alt="" style="max-width:100%;"></a></p>
 
 # 重要说明
