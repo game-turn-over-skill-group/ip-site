@@ -1,3 +1,3 @@
 @echo off
 set ip=%1%
-curl ip.cn?ip=%ip%
+curl www.evansfix.com/ip.php?ip=%ip%
