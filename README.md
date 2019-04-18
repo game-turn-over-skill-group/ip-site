@@ -19,4 +19,4 @@ code 里面的代码需要安装 msys2的linux库才能在windows上运行 且�
 
 作者<a href="https://www.feng.ee/">清风</a>博客：https://www.zephyr.vip/
 
-感谢朋友：evansfix 的技术支持 ：http://www.evansfix.com/
+感谢朋友：<a href="http://evansfix.com/">evansfix</a> 的技术支持 ：http://www.evansfix.com/
