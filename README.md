@@ -15,4 +15,5 @@ code 里面的代码需要安装 msys2的linux库才能在windows上运行 且�
 ~~最近ip.cn异常就大概2017.11.15号 开始 需要改hosts 这里不提供这个因为会过期 站长ping查找~~
 
 我不是作者...作者<a href="https://www.feng.ee/">清风</a>博客：https://www.zephyr.vip/
+
 感谢朋友：evansfix 的技术支持
