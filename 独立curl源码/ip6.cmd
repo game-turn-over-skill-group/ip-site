@@ -6,7 +6,8 @@ if "%1%"=="" goto myipv6
 goto nul
 
 :myipv6
-.\msys2_curl\curl http://v6.ipv6-test.com/api/myip.php
+:.\msys2_curl\curl http://v6.ipv6-test.com/api/myip.php
+.\msys2_curl\curl https://api-ipv6.ip.sb/ip
 
 :nul
 @echo off
