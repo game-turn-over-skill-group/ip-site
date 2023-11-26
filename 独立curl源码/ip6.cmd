@@ -13,7 +13,7 @@ if "%1%"=="" goto FindIpAdd
 
 
 :FindIpAdd
-curl v6.ip.zxinc.org/api.php?type=TYPE&ip=%1%
+curl v6.ip.zxinc.org/api.php?type=text&ip=%1%
 goto End
 
 
