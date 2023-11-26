@@ -7,6 +7,14 @@
 
 如果你系统已经 安装了curl命令 只需提取ip+ip6.cmd命令即可
 
+关于命令显示乱码的问题:
+
+先将cmd添加到开始菜单目录 （或者每次 手动输入：chcp 65001）
+开始菜单目录：C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools
+
+然后修改cmd命令行的 快捷方式 如图：
+
+%windir%\system32\cmd.exe /k chcp 65001
 
 
 <br>命令<code>[ip www.github.com]</code>效果：</br>
