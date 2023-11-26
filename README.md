@@ -18,6 +18,9 @@
 
 %windir%\system32\cmd.exe /k chcp 65001
 
+设置系统环境变量：
+<img src="https://github.com/game-turn-over-skill-group/ip-site/blob/d63696049cda0cb8cf9fd06e57b7292941638651/%E7%8B%AC%E7%AB%8Bcurl%E6%BA%90%E7%A0%81/%E8%AE%BE%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg">
+
 
 <br>命令<code>[ip www.github.com]</code>效果：</br>
 <p><a href="https://wx2.sinaimg.cn/mw1024/0066ebxvgy1flk5y1o6gqj30bc060tbg.jpg" target="_blank"><img src="https://wx2.sinaimg.cn/mw1024/0066ebxvgy1flk5y1o6gqj30bc060tbg.jpg" alt="" style="max-width:100%;"></a></p>
