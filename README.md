@@ -1,12 +1,11 @@
 # ip-site
+支持：[windows 10]
 简化curl命令 使用ip [x.x.x.x]查询 IP地址归属地 (默认查询本机公网IP)
 
 # code
-code 里面的代码需要安装 msys2的linux库才能在windows上运行 且代码暂时只支持windows[dos命令]编写
+独立curl源码 并非curl源码 而是命令源码+独立msys2中的curl命令+dll模块提取 
+如果你系统已经 安装了curl命令 只需提取ip+ip6.cmd命令即可
 
-独立curl源码 并非curl源码 而是源码+独立msys2中的curl命令+dll模块提取 
-
-没有msys2环境的下载这个 就不需要再用code的代码
 
 <br>命令<code>[ip www.github.com]</code>效果：</br>
 <p><a href="https://wx2.sinaimg.cn/mw1024/0066ebxvgy1flk5y1o6gqj30bc060tbg.jpg" target="_blank"><img src="https://wx2.sinaimg.cn/mw1024/0066ebxvgy1flk5y1o6gqj30bc060tbg.jpg" alt="" style="max-width:100%;"></a></p>
