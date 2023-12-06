@@ -1,0 +1,7 @@
+
+
+
+这个很简单 直接运行ip.cmd就行 
+添加复制文件到系统变量里面 可以cmd直接输入 无需路径
+如何添加环境变量或路径添加到系统的Path里面(要么复制文件到path其中之一文件夹 要么新建目录添加到path)：
+https://jingyan.baidu.com/article/db55b6099d1e0d4ba30a2fc0.html
