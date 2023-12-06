@@ -1,4 +1,4 @@
-# ip-site
+# ip-site（过期）
 支持：[windows 10]
 
 简化curl命令 使用ip [x.x.x.x]查询 IP地址归属地 (默认查询本机公网IP)
