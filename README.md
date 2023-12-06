@@ -20,7 +20,7 @@
 %windir%\system32\cmd.exe /k chcp 65001
 
 设置系统环境变量：
-<p><a href="https://github.com/game-turn-over-skill-group/ip-site/blob/d63696049cda0cb8cf9fd06e57b7292941638651/%E7%8B%AC%E7%AB%8Bcurl%E6%BA%90%E7%A0%81/%E8%AE%BE%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg" target="_blank"><img src="https://github.com/game-turn-over-skill-group/ip-site/blob/d63696049cda0cb8cf9fd06e57b7292941638651/%E7%8B%AC%E7%AB%8Bcurl%E6%BA%90%E7%A0%81/%E8%AE%BE%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg" alt="" style="max-width:60%;"></a></p>
+<p><a href="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/master/code/%E8%AE%BE%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg" target="_blank"><img src="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/master/code/%E8%AE%BE%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg" alt="" style="max-width:60%;"></a></p>
 
 
 # 重要说明
