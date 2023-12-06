@@ -12,10 +12,10 @@
 
 # 关于命令显示乱码的问题:
 先将cmd添加到开始菜单目录 （或者每次 手动输入：chcp 65001）
-开始菜单目录：C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools
+开始菜单目录：```C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools```
 
 然后修改cmd命令行的 快捷方式 如图：
-<p><a href="https://github.com/game-turn-over-skill-group/ip-site/blob/cb0c29dfef313f51e0f1b48a285e645b89f2a5c6/%E7%8B%AC%E7%AB%8Bcurl%E6%BA%90%E7%A0%81/%E8%AE%BE%E7%BD%AE%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95cmd%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F.jpg" target="_blank"><img src="https://github.com/game-turn-over-skill-group/ip-site/blob/cb0c29dfef313f51e0f1b48a285e645b89f2a5c6/%E7%8B%AC%E7%AB%8Bcurl%E6%BA%90%E7%A0%81/%E8%AE%BE%E7%BD%AE%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95cmd%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F.jpg" alt="" style="max-width:80%;"></a></p>
+<p><a href="https://github.com/game-turn-over-skill-group/ip-site/blob/cb0c29dfef313f51e0f1b48a285e645b89f2a5c6/%E7%8B%AC%E7%AB%8Bcurl%E6%BA%90%E7%A0%81/%E8%AE%BE%E7%BD%AE%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95cmd%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F.jpg" target="_blank"><img src="https://github.com/game-turn-over-skill-group/ip-site/blob/cb0c29dfef313f51e0f1b48a285e645b89f2a5c6/%E7%8B%AC%E7%AB%8Bcurl%E6%BA%90%E7%A0%81/%E8%AE%BE%E7%BD%AE%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95cmd%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F.jpg" alt="" style="max-width:100%;"></a></p>
 
 %windir%\system32\cmd.exe /k chcp 65001
 
