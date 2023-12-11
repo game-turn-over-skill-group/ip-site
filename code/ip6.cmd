@@ -32,6 +32,7 @@ goto End
 ::curl myip6.ipip.net
 ::curl "https://api64.ipify.org/?format=text"
 ::curl 6.ipw.cn
+::curl https://ip.guide/%1%
 
 
 
