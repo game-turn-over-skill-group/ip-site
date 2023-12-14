@@ -6,7 +6,7 @@
 <br>命令<code>[ip www.github.com]</code>效果：</br>
 <p><a href="https://wx2.sinaimg.cn/mw1024/0066ebxvgy1flk5y1o6gqj30bc060tbg.jpg" target="_blank"><img src="https://wx2.sinaimg.cn/mw1024/0066ebxvgy1flk5y1o6gqj30bc060tbg.jpg" alt="" style="max-width:60%;"></a></p>
 
-# code
+# code（代码）
 如果你系统已经 安装了curl命令 只需提取ip+ip6.cmd命令即可
 
 
@@ -23,18 +23,24 @@
 <p><a href="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/master/code/%E8%AE%BE%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg" target="_blank"><img src="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/master/code/%E8%AE%BE%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg" alt="" style="max-width:60%;"></a></p>
 
 
-# 重要说明
+# 更新日志
 ~~最近ip.cn异常就大概2017.11.15号 开始 需要改hosts 这里不提供这个因为会过期 站长ping查找~~
 
-2019年4月18日 修复ip.cn禁止curl请求的问题 (解决方法：更新其他域名)
-<p><a href="https://wx1.sinaimg.cn/mw1024/0066ebxvgy1g272xjz9dsj30h0023weh.jpg" target="_blank"><img src="https://wx1.sinaimg.cn/mw1024/0066ebxvgy1g272xjz9dsj30h0023weh.jpg" alt="" style="max-width:100%;"></a></p>
+~~2019年4月18日 修复ip.cn禁止curl请求的问题 (解决方法：更新其他域名)~~
 
-2023年11月26日 新增ipv6地址查询地区请求（万事俱备 只欠东风 ip.zxinc.org）
+~~2023年11月26日 新增ipv6地址查询地区请求（万事俱备 只欠东风 ip.zxinc.org）~~
 
-本人并非作者 只是提出一个思路 由朋友帮忙实现和优化 并修复
+2023年12月15日 简化ipv6地址查询IP请求 感谢微软AI-Copilot的帮助！
+<p><a href="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/150d93ac708838d15e9468018cac117a1d57b7f8/code/%E6%84%9F%E8%B0%A2%E5%BE%AE%E8%BD%AFAI-Copilot%E7%9A%84%E5%B8%AE%E5%8A%A9%EF%BC%81.png" target="_blank"><img src="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/150d93ac708838d15e9468018cac117a1d57b7f8/code/%E6%84%9F%E8%B0%A2%E5%BE%AE%E8%BD%AFAI-Copilot%E7%9A%84%E5%B8%AE%E5%8A%A9%EF%BC%81.png" alt="" style="max-width:60%;"></a></p>
+
+<p><a href="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/150d93ac708838d15e9468018cac117a1d57b7f8/code/IPV6%E6%89%93%E5%8D%B0%E8%BE%93%E5%87%BA%E5%A4%A7%E5%99%A8%E6%99%9A%E6%88%90%E2%80%A6%E2%80%A6.png" target="_blank"><img src="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/150d93ac708838d15e9468018cac117a1d57b7f8/code/IPV6%E6%89%93%E5%8D%B0%E8%BE%93%E5%87%BA%E5%A4%A7%E5%99%A8%E6%99%9A%E6%88%90%E2%80%A6%E2%80%A6.png" alt="" style="max-width:60%;"></a></p>
+
+
+# 重要说明
+本人并非作者 只是提出一个思路 由朋友帮忙实现和优化 并修复和维护
 
 bat命令支持： <a href="https://www.feng.ee/">清风</a>  博客：https://www.zephyr.vip/
 
 http技术支持：<a href="http://evansfix.com/">evansfix</a>  主页：http://www.evansfix.com/
 
-
+ip查询：<a href="https://ip.zxinc.org/ipquery/">zx@zxinc.org</a>  主页：http://www.zxinc.org/index.htm
