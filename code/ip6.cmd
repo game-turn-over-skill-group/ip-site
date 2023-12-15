@@ -9,7 +9,7 @@ if "%1%"=="" goto MyIp
 
 
 :GetIpv6
-curl -s v6.ip.zxinc.org/api.php?tpye=text^&ip=%1% | grep -oP "(?<=<query>).*?(?=</query>)|(?<=<location>).*?(?=</location>)|(?<=<local>).*?(?=</local>)"
+curl -s v6.ip.zxinc.org/api.php?tpye=text^&ip=%1% | grep -oP "(?<=<query>).*?(?=</query>)|(?<=<location>).*?(?=</location>)" | sed "s/&#x9;//g" | awk '{print "IP/From："$0" \t "$3" "}'
 
 goto End:
 
@@ -36,8 +36,10 @@ goto End
 ::curl https://ip.guide/%1%
 
 
-::包含网站访问速度测试 如果你需要 将这一条替换到上面去 即可
-::curl v6.ip.zxinc.org/api.php?tpye=text^&ip=%1% | grep -oP "(?<=<query>).*?(?=</query>)|(?<=<location>).*?(?=</location>)|(?<=<local>).*?(?=</local>)"
+::无排版 双行显示 IP+归属地
+::curl -s v6.ip.zxinc.org/api.php?tpye=text^&ip=%1% | grep -oP "(?<=<query>).*?(?=</query>)|(?<=<location>).*?(?=</location>)" | sed "s/&#x9;//g"
+::无排版 双行显示 IP+归属地+速度显示
+::curl v6.ip.zxinc.org/api.php?tpye=text^&ip=%1% | grep -oP "(?<=<query>).*?(?=</query>)|(?<=<location>).*?(?=</location>)" | sed "s/&#x9;//g"
 
 
 @echo off
