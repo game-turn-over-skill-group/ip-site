@@ -30,10 +30,11 @@ goto End
 ::curl https://v6.ip.zxinc.org/getip
 ::curl https://v6.ipv6-test.com/api/myip.php
 ::curl http://api-ipv6.ip.sb/ip
-::curl myip6.ipip.net
-::curl "https://api64.ipify.org/?format=text"
-::curl 6.ipw.cn
+::curl https://6.ipw.cn
+::curl https://api64.ipify.org/?format=text
+::curl https://myip6.ipip.net
 ::curl https://ip.guide/%1%
+::curl https://qifu-api.baidubce.com/ip/geo/v1/ipv6/district?ip=%1%
 
 
 ::无排版 双行显示 IP+归属地
