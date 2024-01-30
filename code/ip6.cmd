@@ -33,8 +33,10 @@ goto End
 ::curl https://6.ipw.cn
 ::curl https://api64.ipify.org/?format=text
 ::curl https://myip6.ipip.net
+::curl http://ipv6.ddnspod.com
 ::curl https://ip.guide/%1%
 ::curl https://qifu-api.baidubce.com/ip/geo/v1/ipv6/district?ip=%1%
+::curl https://ip.ddnspod.com/geoip/%1%
 
 
 ::无排版 双行显示 IP+归属地
