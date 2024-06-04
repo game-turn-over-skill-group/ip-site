@@ -4,10 +4,14 @@
 
 set ip=%1%
 
-::查询ip归属地
+:: 获取 JSON 数据并存储到临时文件
+curl -s https://ip.ddnspod.com/geoip/%1 > temp.json
 
-curl https://www.evansfix.com/ip.php?ip=%ip%
+:: 使用 jq 解析 JSON 数据，并提取出 ipv4、ipv6 和 disp 的值
+jq -r "\"IP/From: \(.ipv4 // .ipv6)\nIP/From: \(.disp // \"Unknown\")\"" temp.json
 
+:: 删除临时文件
+del temp.json
 
 
 
