@@ -4,6 +4,8 @@
 
 set ip=%1%
 
+::查询ip归属地
+
 :: 获取 JSON 数据并存储到临时文件
 curl -s https://ip.ddnspod.com/geoip/%1 > temp.json
 
@@ -12,6 +14,7 @@ jq -r "\"IP/From: \(.ipv4 // .ipv6)\nIP/From: \(.disp // \"Unknown\")\"" temp.js
 
 :: 删除临时文件
 del temp.json
+
 
 
 
