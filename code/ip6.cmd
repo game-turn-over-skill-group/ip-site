@@ -28,8 +28,10 @@ goto End
 ::curl https://v6.ipv6-test.com/api/myip.php
 ::curl http://api-ipv6.ip.sb/ip
 ::curl https://6.ipw.cn
+::curl https://test.ipw.cn -6
 ::curl https://api64.ipify.org/?format=text
 ::curl https://myip6.ipip.net
+::curl https://ip.ddnspod.com -6
 ::curl http://ipv6.ddnspod.com
 ::curl https://ip.guide/%1%
 ::curl https://qifu-api.baidubce.com/ip/geo/v1/ipv6/district?ip=%1%

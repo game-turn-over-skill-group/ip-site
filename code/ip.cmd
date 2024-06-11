@@ -25,6 +25,8 @@ curl myip.ipip.net
 ::curl ip.zxinc.org/api.php?type=text&ip=%ip%
 ::curl myip.ipip.net
 ::curl 4.ipw.cn
+::curl test.ipw.cn -4
+::curl ip.ddnspod.com -4
 ::curl ipv4.ddnspod.com
 ::curl https://qifu-api.baidubce.com/ip/geo/v1/district?ip=%ip%
 ::curl https://ip.ddnspod.com/geoip/%ip%
