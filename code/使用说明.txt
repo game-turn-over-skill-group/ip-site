@@ -1,20 +1,32 @@
 
 
 
+curl for Windows 下载：
+https://curl.se/windows/latest.cgi?p=win64-mingw.zip
+https://curl.se/windows/
+
+
+cygwin64 下载：
+https://cygwin.com/setup-x86_64.exe
+https://cygwin.com/install.html
+
+
 这个很简单 直接运行ip.cmd就行 
 添加复制文件到系统变量里面 可以cmd直接输入 无需路径
 如何添加环境变量或路径添加到系统的Path里面(要么复制文件到path其中之一文件夹 要么新建目录添加到path)：
 https://jingyan.baidu.com/article/db55b6099d1e0d4ba30a2fc0.html
 
 
-
 环境遍历添加[例如]：
-E:\Github\ip-site\code
+E:\curl\bin
+G:\Cygwin\bin
 
 
-[2024年01月18日 07:00:34]补齐ipv6缺失运行命令
+~~[2024年01月18日 07:00:34]补齐ipv6缺失运行命令~~
+~~需要注意的是 缺少运行文件和运行文件所需的dll都是独立出来在文件夹 ~~
+~~需要自行复制(exe+dll)出来 到code目录 或者 那些文件夹一并添加到 环境变量~~
+~~目前提供了2个版本[cmder/msys64]运行库 文件 2者任选其中之一 抽取运行~~
 
-需要注意的是 缺少运行文件和运行文件所需的dll都是独立出来在文件夹 
-需要自行复制(exe+dll)出来 到code目录 或者 那些文件夹一并添加到 环境变量
 
-目前提供了2个版本[cmder/msys64]运行库 文件 2者任选其中之一 抽取运行
+[2024年09月03日 16:40:12]下载完整的命令行工具
+推荐下载cygwin64+curl进行安装 可使用更多命令

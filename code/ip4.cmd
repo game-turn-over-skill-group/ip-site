@@ -6,16 +6,14 @@ set ip=%1%
 
 ::查询ip归属地
 
-if "%1%"=="" goto MyIP
+:: Cygwin64 控制台
+::curl -s https://ipvx.netart.cn/%ip% | jq -r '.ip' | sed 's/^/IP\/From：/'
+::curl -s https://ipvx.netart.cn/%ip% | jq -r '"IP/From：\(.registered_country.code) \(.registered_country.name) \(.regions[0]) \(.regions[1]) \(.regions[2]) \(.as.name) \(.as.info)"'
 
-curl https://www.evansfix.com/ip.php?ip=%ip%
+:: windows cmd 控制台
+curl -s https://ipvx.netart.cn/%ip% | jq -r ".ip" | sed "s/^/IP\/From：/"
+curl -s https://ipvx.netart.cn/%ip% | jq -r "\"IP/From：\(.registered_country.code) \(.registered_country.name) \(.regions[0]) \(.regions[1]) \(.regions[2]) \(.as.name) \(.as.info)\""
 
-goto End
-
-:MyIP
-curl myip.ipip.net
-
-:End
 
 
 

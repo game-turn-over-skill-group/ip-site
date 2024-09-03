@@ -27,8 +27,9 @@ del temp.json
 ::curl myip4.ipip.net
 ::curl 4.ipw.cn
 ::curl ipv4.ddnspod.com
-::curl https://qifu-api.baidubce.com/ip/geo/v1/district?ip=%ip%
 ::curl https://ip.ddnspod.com/geoip/%ip%
+::curl https://qifu-api.baidubce.com/ip/geo/v1/district?ip=%ip%
+::curl https://qifu-api.baidubce.com/ip/geo/v1/ipv6/district?ip=%1%
 
 
 
