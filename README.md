@@ -34,7 +34,7 @@
 
 2024年06月05日 感谢ChatGPT帮忙完善 win10系统 jq命令的.js脚本
 
-2024年09月03日 新增ip4新数据库 感谢微软AI-Copilot的帮助！
+2024年09月03日 新增ip4新数据库 感谢微软AI-Copilot和ChatGPT！
 
 <p><a href="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/150d93ac708838d15e9468018cac117a1d57b7f8/code/%E6%84%9F%E8%B0%A2%E5%BE%AE%E8%BD%AFAI-Copilot%E7%9A%84%E5%B8%AE%E5%8A%A9%EF%BC%81.png" target="_blank"><img src="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/150d93ac708838d15e9468018cac117a1d57b7f8/code/%E6%84%9F%E8%B0%A2%E5%BE%AE%E8%BD%AFAI-Copilot%E7%9A%84%E5%B8%AE%E5%8A%A9%EF%BC%81.png" alt="" style="max-width:60%;"></a></p>
 

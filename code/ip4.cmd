@@ -7,12 +7,12 @@ set ip=%1%
 ::查询ip归属地
 
 :: Cygwin64 控制台
-::curl -s https://ipvx.netart.cn/%ip% | jq -r '.ip' | sed 's/^/IP\/From：/'
-::curl -s https://ipvx.netart.cn/%ip% | jq -r '"IP/From：\(.registered_country.code) \(.registered_country.name) \(.regions[0]) \(.regions[1]) \(.regions[2]) \(.as.name) \(.as.info)"'
+::curl -s https://ipv4.netart.cn/%ip% | jq -r '.ip' | sed 's/^/IP\/From：/'
+::curl -s https://ipv4.netart.cn/%ip% | jq -r '"IP/From：\(.registered_country.code) \(.registered_country.name) \(.regions[0]) \(.regions[1]) \(.regions[2]) \(.as.name) \(.as.info)"' | sed 's/null//g' | sed 's/  */ /g'
 
 :: windows cmd 控制台
-curl -s https://ipvx.netart.cn/%ip% | jq -r ".ip" | sed "s/^/IP\/From：/"
-curl -s https://ipvx.netart.cn/%ip% | jq -r "\"IP/From：\(.registered_country.code) \(.registered_country.name) \(.regions[0]) \(.regions[1]) \(.regions[2]) \(.as.name) \(.as.info)\""
+curl -s https://ipv4.netart.cn/%ip% | jq -r ".ip" | sed "s/^/IP\/From：/"
+curl -s https://ipv4.netart.cn/%ip% | jq -r "\"IP/From：\(.registered_country.code) \(.registered_country.name) \(.regions[0]) \(.regions[1]) \(.regions[2]) \(.as.name) \(.as.info)\"" | sed 's/null//g' | sed 's/  */ /g'
 
 
 
