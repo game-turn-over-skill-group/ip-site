@@ -6,13 +6,14 @@ set ip=%1%
 
 ::查询ip归属地
 
-:: Cygwin64 控制台
-::curl -s https://ipv4.netart.cn/%ip% | jq -r '.ip' | sed 's/^/IP\/From：/'
-::curl -s https://ipv4.netart.cn/%ip% | jq -r '"IP/From：\(.registered_country.code) \(.registered_country.name) \(.regions[0]) \(.regions[1]) \(.regions[2]) \(.as.name) \(.as.info)"' | sed 's/null//g' | sed 's/  */ /g'
+:: 获取 JSON 数据并存储到临时文件
+curl -s https://ipv4.netart.cn/%ip% > temp.json
 
-:: windows cmd 控制台
-curl -s https://ipv4.netart.cn/%ip% | jq -r ".ip" | sed "s/^/IP\/From：/"
-curl -s https://ipv4.netart.cn/%ip% | jq -r "\"IP/From：\(.registered_country.code) \(.registered_country.name) \(.regions[0]) \(.regions[1]) \(.regions[2]) \(.as.name) \(.as.info)\"" | sed 's/null//g' | sed 's/  */ /g'
+:: 使用 jq 解析 JSON 数据，提取出需要的字段
+jq -r "\"IP/From: \(.ip)\nIP/From: \(.registered_country.code) \(.registered_country.name) \(.regions[0] // \"\") \(.regions[1] // \"\") \(.regions[2] // \"\") \(.as.name // \"\") \(.as.info // \"\")\"" temp.json | sed 's/null//g' | sed 's/  */ /g'
+
+:: 删除临时文件
+del temp.json
 
 
 
