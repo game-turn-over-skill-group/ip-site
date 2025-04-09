@@ -13,7 +13,9 @@ curl -s v6.ip.zxinc.org/api.php?tpye=text^&ip=%1% | grep -oP "(?<=<query>).*?(?=
 goto End
 
 :MyIP
-curl myip6.ipip.net
+
+curl -s v6.ip.zxinc.org/api.php?tpye=text | grep -oP "(?<=<query>).*?(?=</query>)|(?<=<location>).*?(?=</location>)" | sed "s/&#x9;//g" | awk '{print "IP/From："$0" \t "$3" "}'
+
 goto End
 
 

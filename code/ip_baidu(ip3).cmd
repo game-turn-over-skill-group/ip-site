@@ -2,6 +2,8 @@
 
 @echo off
 
+chcp 65001 >nul
+
 set ip=%1%
 
 ::查询ip归属地
