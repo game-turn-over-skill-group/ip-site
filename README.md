@@ -38,6 +38,8 @@
 
 2025年01月16日 ip2区分v4/v6数据库查询 由 <a href="https://www.doubao.com/chat/">豆包</a> and <a href="https://chat.deepseek.com/">DeepSeek</a> 协助完成
 
+2026年03月14日 修复百度API 新增其他域名归属地查询
+
 <p><a href="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/150d93ac708838d15e9468018cac117a1d57b7f8/code/%E6%84%9F%E8%B0%A2%E5%BE%AE%E8%BD%AFAI-Copilot%E7%9A%84%E5%B8%AE%E5%8A%A9%EF%BC%81.png" target="_blank"><img src="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/150d93ac708838d15e9468018cac117a1d57b7f8/code/%E6%84%9F%E8%B0%A2%E5%BE%AE%E8%BD%AFAI-Copilot%E7%9A%84%E5%B8%AE%E5%8A%A9%EF%BC%81.png" alt="" style="max-width:60%;"></a></p>
 
 <p><a href="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/9c61ce5360ef42c4fe4d3d9763c0355270b0f7c2/code/%E6%96%B0%E5%A2%9E%E6%8E%92%E7%89%88%E6%98%BE%E7%A4%BA.jpg" target="_blank"><img src="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/9c61ce5360ef42c4fe4d3d9763c0355270b0f7c2/code/%E6%96%B0%E5%A2%9E%E6%8E%92%E7%89%88%E6%98%BE%E7%A4%BA.jpg" alt="" style="max-width:60%;"></a></p>

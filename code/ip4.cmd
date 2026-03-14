@@ -22,8 +22,11 @@ del temp.json
 ::备用 查询ip归属地
 ::curl myip.ipip.net
 ::curl 4.ipw.cn
+::curl ip.sb -4
 ::curl test.ipw.cn -4
 ::curl ip.ddnspod.com -4
+::curl ip.renfei.net -4
+::curl ipv4.renfei.net
 ::curl ipv4.ddnspod.com
 ::curl https://ip.hkver.cn/ip
 ::curl -x http://127.0.0.1:42417 check-host.net/ip

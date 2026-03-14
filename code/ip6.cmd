@@ -32,8 +32,11 @@ rem curl https://6.ipw.cn
 rem curl http://api-ipv6.ip.sb/ip
 rem curl https://v6.ip.zxinc.org/getip
 rem curl https://v6.ipv6-test.com/api/myip.php
+rem curl http://ip.sb -4
 rem curl https://test.ipw.cn -6
 rem curl https://ip.ddnspod.com -6
+rem curl https://ip.renfei.net -6
+rem curl https://ipv6.renfei.net
 rem curl http://ipv6.ddnspod.com
 rem curl https://api64.ipify.org/?format=text
 rem curl -s https://ipvx.netart.cn/ | grep -oE "([0-9]{1,3}\.){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}"
