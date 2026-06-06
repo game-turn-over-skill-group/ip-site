@@ -13,7 +13,7 @@ curl https://www.evansfix.com/ip.php?ip=%ip%
 goto End
 
 :MyIP
-curl myip.ipip.net
+curl myip.ipip.net -4
 
 :End
 
@@ -21,8 +21,7 @@ curl myip.ipip.net
 
 
 ::备用 查询ip归属地
-::curl myip.ipip.net
-::curl 4.ipw.cn
+::curl myip.ipip.net -4
 ::curl ip.sb -4
 ::curl test.ipw.cn -4
 ::curl ip.ddnspod.com -4
@@ -30,7 +29,7 @@ curl myip.ipip.net
 ::curl ip.renfei.net -4
 ::curl ipv4.renfei.net
 ::curl https://ip.hkver.cn/ip
-::curl -x http://127.0.0.1:42417 check-host.net/ip
+::curl check-host.net/ip
 ::curl -s https://ip.netart.cn/ | grep -oE "([0-9]{1,3}\.){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}"
 ::curl -s https://ipv4.netart.cn/ | grep -oE "([0-9]{1,3}\.){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}" | head -n 1
 ::curl https://ipv4.netart.cn/%ip%
@@ -40,7 +39,6 @@ curl myip.ipip.net
 ::curl https://ip.ddnspod.com/geoip/%ip%
 ::curl ip.zxinc.org/api.php?type=text&ip=%ip%
 ::curl https://www.evansfix.com/ip.php?ip=%ip%
-::curl https://qifu-api.baidubce.com/ip/geo/v1/district?ip=%ip%
 
 
 
