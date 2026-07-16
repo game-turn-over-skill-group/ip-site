@@ -46,6 +46,8 @@
 
 <p><a href="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/master/code/%E5%BF%85%E9%A1%BB%E4%BD%BF%E7%94%A8https%E6%9F%A5%E8%AF%A2%3D%E5%8E%9F%E5%9B%A0%E6%9C%AA%E7%9F%A5.png" target="_blank"><img src="https://raw.githubusercontent.com/game-turn-over-skill-group/ip-site/master/code/%E5%BF%85%E9%A1%BB%E4%BD%BF%E7%94%A8https%E6%9F%A5%E8%AF%A2%3D%E5%8E%9F%E5%9B%A0%E6%9C%AA%E7%9F%A5.png" alt="" style="max-width:60%;"></a></p>
 
+2026年07月17日 对基础ip接口增加超时等待和重试2次和游览器UA（因为有概率检测出was reset），同时新增接口cip.cc（豆包提供）
+
 
 # 重要说明
 本人并非作者 只是提出一个思路 由朋友帮忙实现和优化 并修复和维护
